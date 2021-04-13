@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  height: 700px;
+}
+.background {
+  height: 1200px;
+  display: Flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    45deg,
+    hsla(187, 73%, 36%, 1) 4%,
+    hsla(270, 89%, 11%, 1) 86%
+  );
+}
+h1 {
+  font-weight: 100;
+  font-size: 2.5em;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+#content {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 0px;
+  text-align: center;
+  position: relative;
+  bottom: 1150px;
+  color: white;
+}
+#question {
+  background-color: white;
+  opacity: 0.6;
+  border-radius: 5px;
+}
+div.eight-ball {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.top-glare {
+  position: relative;
+  top: -6px;
+  left: 42px;
+  background: radial-gradient(#dcdcdc 2%, transparent 65%);
+  border-radius: 50%;
+  border: 6px transparent;
+  width: 230px;
+  height: 100px;
+  z-index: 3;
+}
+
+div.answer {
+  position: relative;
+  bottom: 100px;
+  left: 0px;
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin: 25% auto;
+  z-index: 2;
+}
+
+p#eight {
+  font-size: 5em;
+  margin: 20% auto;
+  color: white;
+  opacity: 1;
+  font-family: "Helvetica Neue", arial;
+  font-weight: 400;
+  z-index: 3;
+}
+
+p#answer {
+  position: relative;
+  top: 20em;
+  padding: 23px 34px;
+  color: lightblue;
+  letter-spacing: 1px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  vertical-align: middle;
+  text-align: center;
+  z-index: 3;
+}
+.bottom-shadow {
+  position: relative;
+  bottom: 62px;
+  left: 130px;
+  background: radial-gradient(#6b6b6b 9%, transparent 70%);
+  border-radius: 50%;
+  border: 1px transparent;
+  width: 330px;
+  height: 40px;
+  z-index: -1;
+}
+#question {
+  margin: 20px;
+  padding: 10px;
+  width: 400px;
+  font-size: 22px;
+}
+
+#info {
+  font-size: 20px;
+  font-family: "Helvetica Neue", arial;
+  font-weight: 400;
+}
+/*second ball*/
+div.eight-ball2 {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  z-index: 1;
+}
+.top-glare2 {
+  position: relative;
+  top: 3px;
+  left: 50px;
+  background: radial-gradient(#dcdcdc 2%, transparent 75%);
+  border-radius: 50%;
+  border: 1px transparent;
+  width: 200px;
+  height: 100px;
+}
+.inner-circle {
+  position: relative;
+  bottom: 100px;
+  left: 0px;
+  background: radial-gradient(black 10%, #030f22 90%);
+  border: 2px solid #333;
+  border-radius: 50%;
+  width: 60%;
+  height: 60%;
+  margin: 20% auto;
+  z-index: 1;
+}
+#triangle-small {
+  width: 0;
+  height: 0;
+  border-left: 65px solid transparent;
+  border-right: 65px solid transparent;
+  border-bottom: 130px solid #256bd6;
+  margin: 6% auto;
+}
+
+.mid-glare {
+  position: relative;
+  bottom: 360px;
+  left: 10px;
+  border: transparent;
+  border-radius: 50%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  background: linear-gradient(transparent 20%, #2c2c2c 90%, transparent);
+  width: 280px;
+  height: 180px;
+  z-index: 0;
+}
+/* Thanks to Magic 8 ball Tutorial on SSaurel's Channel*/
